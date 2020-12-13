@@ -38,6 +38,9 @@
                                 <rect key="frame" x="352" y="44" width="42" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="gear" catalog="system"/>
+                                <connections>
+                                    <segue destination="9Sf-ua-HnV" kind="presentation" modalPresentationStyle="fullScreen" id="fn6-0k-cjr"/>
+                                </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uib-5P-Swb">
                                 <rect key="frame" x="20" y="194" width="374" height="564"/>
@@ -53,6 +56,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MiT-Xz-eeW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="937.68115942028987" y="-32.142857142857139"/>
+        </scene>
+        <!--Settings Storyboard-->
+        <scene sceneID="d0W-CT-ng4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Settings Storyboard" id="9Sf-ua-HnV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WZx-QZ-Etn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1644" y="-393"/>
         </scene>
     </scenes>
     <resources>
