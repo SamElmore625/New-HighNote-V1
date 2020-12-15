@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -31,9 +32,9 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yI7-VP-8iq">
                                 <rect key="frame" x="82" y="328" width="250" height="204"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8s-pi-4GJ">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8s-pi-4GJ">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="36"/>
-                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="About">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -42,25 +43,25 @@
                                             <segue destination="3i0-Kt-LRG" kind="presentation" modalPresentationStyle="fullScreen" id="y5w-VJ-cl0"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JzJ-jd-T2i">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JzJ-jd-T2i">
                                         <rect key="frame" x="0.0" y="56" width="250" height="36"/>
-                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Edit Profile (Link to Google)">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lee-vu-ph8">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lee-vu-ph8">
                                         <rect key="frame" x="0.0" y="112" width="250" height="36"/>
-                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Log Out">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0W-D5-5xk">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0W-D5-5xk">
                                         <rect key="frame" x="0.0" y="168" width="250" height="36"/>
-                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Report a Bug">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -75,7 +76,8 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="sfs-dd-M1x"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                         <constraints>
                             <constraint firstItem="eok-Tr-n2R" firstAttribute="centerX" secondItem="LR9-L6-hgg" secondAttribute="centerX" id="0EJ-G8-Dt5"/>
                             <constraint firstItem="yI7-VP-8iq" firstAttribute="top" secondItem="eok-Tr-n2R" secondAttribute="bottom" constant="50" id="50v-Hs-Is9"/>
@@ -85,7 +87,6 @@
                             <constraint firstItem="eok-Tr-n2R" firstAttribute="top" secondItem="gcd-fi-PdE" secondAttribute="bottom" constant="15" id="kYK-5r-Vkm"/>
                             <constraint firstItem="yI7-VP-8iq" firstAttribute="centerX" secondItem="LR9-L6-hgg" secondAttribute="centerX" id="zVL-Xg-FID"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="sfs-dd-M1x"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aRa-Ri-20h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -115,17 +116,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omD-bZ-re3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omD-bZ-re3">
                                 <rect key="frame" x="179.5" y="658" width="55" height="30"/>
-                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Oq-Yt-Clg">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Oq-Yt-Clg">
                                 <rect key="frame" x="20" y="44" width="80" height="35"/>
-                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="YQG-DH-HKe"/>
                                     <constraint firstAttribute="width" constant="80" id="mid-iF-Sid"/>
@@ -139,7 +140,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="K0Y-w7-uGp"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                         <constraints>
                             <constraint firstItem="cHg-v6-5OM" firstAttribute="top" secondItem="5Oq-Yt-Clg" secondAttribute="bottom" constant="65" id="9Hw-zG-B6N"/>
                             <constraint firstItem="PEK-Fr-zCL" firstAttribute="centerX" secondItem="adh-Vj-Z7E" secondAttribute="centerX" id="CJB-9P-Skr"/>
@@ -152,7 +154,6 @@
                             <constraint firstItem="omD-bZ-re3" firstAttribute="top" secondItem="PEK-Fr-zCL" secondAttribute="bottom" constant="60" id="dMC-cA-ldq"/>
                             <constraint firstItem="cHg-v6-5OM" firstAttribute="top" secondItem="K0Y-w7-uGp" secondAttribute="top" constant="105" id="hRq-2W-bXt"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="K0Y-w7-uGp"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JLG-Xc-NaY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -173,9 +174,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ObW-Xg-c72">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ObW-Xg-c72">
                                 <rect key="frame" x="20" y="40" width="80" height="35"/>
-                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="C95-fL-knB"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="Tfh-hk-kCl"/>
@@ -191,14 +192,15 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UED-sl-ILg">
-                                <rect key="frame" x="17.5" y="397.5" width="379" height="101.5"/>
+                                <rect key="frame" x="18.5" y="397.5" width="377" height="101.5"/>
                                 <string key="text">This app was developed by Dev Jijilal  and Sam Elmore in Info Sci Class.  It's purpose is to allow users to track  personal song reviews. Eventually, we will  develop this concept into a social media platform.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="k3d-RZ-tTI"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                         <constraints>
                             <constraint firstItem="UED-sl-ILg" firstAttribute="centerY" secondItem="dRo-9z-6ic" secondAttribute="centerY" id="3KS-Ei-6j7"/>
                             <constraint firstItem="Srp-Kq-ocL" firstAttribute="centerX" secondItem="dRo-9z-6ic" secondAttribute="centerX" id="JHM-ha-JGT"/>
@@ -207,7 +209,6 @@
                             <constraint firstItem="UED-sl-ILg" firstAttribute="centerX" secondItem="dRo-9z-6ic" secondAttribute="centerX" id="dnI-3S-Ge0"/>
                             <constraint firstItem="ObW-Xg-c72" firstAttribute="top" secondItem="dRo-9z-6ic" secondAttribute="top" constant="40" id="tU5-qD-JWo"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="k3d-RZ-tTI"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OEv-4m-urd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -216,9 +217,15 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="c6a-gf-fe1"/>
+        <segue reference="TC0-9w-WBs"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="settings" width="512" height="512"/>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
