@@ -13,6 +13,9 @@
 		8764EC492581037A00C7096B /* Settings Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8764EC482581037A00C7096B /* Settings Storyboard.storyboard */; };
 		8764EC4A2581037A00C7096B /* Settings Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8764EC482581037A00C7096B /* Settings Storyboard.storyboard */; };
 		8764EC4B2581037A00C7096B /* Settings Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8764EC482581037A00C7096B /* Settings Storyboard.storyboard */; };
+		C197EC52258996E70033B779 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197EC51258996E70033B779 /* SignUpViewController.swift */; };
+		C197EC57258997000033B779 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197EC56258997000033B779 /* LoginViewController.swift */; };
+		C197EC5C2589970E0033B779 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197EC5B2589970E0033B779 /* HomeViewController.swift */; };
 		C1D5AF77257C99C100DAE46A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5AF76257C99C100DAE46A /* AppDelegate.swift */; };
 		C1D5AF79257C99C100DAE46A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5AF78257C99C100DAE46A /* SceneDelegate.swift */; };
 		C1D5AF7B257C99C100DAE46A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5AF7A257C99C100DAE46A /* ViewController.swift */; };
@@ -43,6 +46,9 @@
 /* Begin PBXFileReference section */
 		8763E8DE258999B500E93879 /* PleaseWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PleaseWorkViewController.swift; path = HiNoteV1/PleaseWorkViewController.swift; sourceTree = "<group>"; };
 		8764EC482581037A00C7096B /* Settings Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Settings Storyboard.storyboard"; sourceTree = "<group>"; };
+		C197EC51258996E70033B779 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C197EC56258997000033B779 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C197EC5B2589970E0033B779 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C1D5AF73257C99C100DAE46A /* HiNoteV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiNoteV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D5AF76257C99C100DAE46A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1D5AF78257C99C100DAE46A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +100,17 @@
 			path = StoryBoards;
 			sourceTree = "<group>";
 		};
+		C197EC602589971B0033B779 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1D5AF7A257C99C100DAE46A /* ViewController.swift */,
+				C197EC51258996E70033B779 /* SignUpViewController.swift */,
+				C197EC56258997000033B779 /* LoginViewController.swift */,
+				C197EC5B2589970E0033B779 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		C1D5AF6A257C99C100DAE46A = {
 			isa = PBXGroup;
 			children = (
@@ -118,10 +135,10 @@
 		C1D5AF75257C99C100DAE46A /* HiNoteV1 */ = {
 			isa = PBXGroup;
 			children = (
+				C197EC602589971B0033B779 /* ViewControllers */,
 				8764EC47258102EA00C7096B /* StoryBoards */,
 				C1D5AF76257C99C100DAE46A /* AppDelegate.swift */,
 				C1D5AF78257C99C100DAE46A /* SceneDelegate.swift */,
-				C1D5AF7A257C99C100DAE46A /* ViewController.swift */,
 				C1D5AF7F257C99C300DAE46A /* Assets.xcassets */,
 				C1D5AF84257C99C300DAE46A /* Info.plist */,
 			);
@@ -282,7 +299,10 @@
 				C1D5AF7B257C99C100DAE46A /* ViewController.swift in Sources */,
 				8763E8DF258999B500E93879 /* PleaseWorkViewController.swift in Sources */,
 				C1D5AF77257C99C100DAE46A /* AppDelegate.swift in Sources */,
+				C197EC52258996E70033B779 /* SignUpViewController.swift in Sources */,
+				C197EC57258997000033B779 /* LoginViewController.swift in Sources */,
 				C1D5AF79257C99C100DAE46A /* SceneDelegate.swift in Sources */,
+				C197EC5C2589970E0033B779 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
