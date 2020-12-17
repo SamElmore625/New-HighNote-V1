@@ -1,13 +1,13 @@
 //
-//  PleaseWorkViewController.swift
+//  SettingsViewController.swift
 //  HiNoteV1
 //
-//  Created by Sam Elmore on 12/15/20.
+//  Created by Sam Elmore on 12/16/20.
 //
 
 import UIKit
 
-class PleaseWorkViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
